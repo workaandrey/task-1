@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('users', 'UsersController');
+
+Route::post('upload/pdf', 'PdfUploadController');
